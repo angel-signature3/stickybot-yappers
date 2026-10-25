@@ -3,7 +3,7 @@
 import json, os, time, urllib.request, ssl, re
 
 # 1. YOUR TOKEN
-TOKEN = os.environ.get("YAPPER_BOT_TOKEN", "")
+TOKEN = os.environ.get("YAPPER_BOT_TOKEN")
 BASE = "https://www.yapin.gg/api/bot/v1"
 SERVER_ID = "88a7b7d7-c2f6-4cc5-8208-ffed9c3093c6"
 
